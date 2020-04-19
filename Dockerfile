@@ -10,4 +10,4 @@ RUN npm install @feathersjs/cli -g && \
 
 EXPOSE 3030
 
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "dev"]
