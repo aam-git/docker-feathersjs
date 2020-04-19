@@ -1,0 +1,26 @@
+version: '2'
+services:
+  mongo:
+    image: mongo
+    hostname: mongo
+    restart: unless-stopped
+    networks:
+      - internal
+    volumes:
+      - mongodb_data:/data/db
+  feathers:
+    image: aamservices/feathersjs:latest
+    restart: unless-stopped
+    volumes:
+      - sails_data:/usr/src/app
+    networks:
+      - internal
+    ports:
+      - 1337
+    depends_on:
+      - mongo
+volumes:
+  mongodb_data:
+    driver: local
+  sails_data:
+    driver: local
