@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:slim
 LABEL maintainer="AAMServices <info@aamservices.uk>"
 
 WORKDIR /usr/src/app
