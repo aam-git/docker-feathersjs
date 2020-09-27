@@ -3,7 +3,7 @@ LABEL maintainer="AAMServices <info@aamservices.uk>"
 
 RUN set -xe \
     && apt-get update \
-    && apt-get install -y graphicsmagick ghostscript \
+    && apt-get install -y graphicsmagick ghostscript pdfinfo \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /usr/src/app
