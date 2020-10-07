@@ -1,10 +1,7 @@
-FROM node:slim
+FROM node:alpine
 LABEL maintainer="AAMServices <info@aamservices.uk>"
 
-RUN set -xe \
-    && apt-get update \
-    && apt-get install -y graphicsmagick ghostscript poppler-utils \
-    && rm -rf /var/lib/apt/lists/*
+RUN apk add --no-cache git
 
 WORKDIR /usr/src/app
 
