@@ -52,5 +52,5 @@
       }
     }
   },
-  "mongodb": "mongodb://localhost:27017/feathers_app"
+  "mongodb": "mongodb://database:27017/data"
 }
