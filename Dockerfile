@@ -8,7 +8,6 @@ WORKDIR /usr/src/app
 COPY feathersApp/ /usr/src/app/
 
 RUN npm install @feathersjs/cli -g && \
-	cd feathersApp && \
 	npm install
 
 EXPOSE 3030
