@@ -9,7 +9,7 @@
   "authentication": {
     "entity": "user",
     "service": "users",
-    "secret": "Q+URCNAQY5RAcXHecEUxFxzuA24=",
+    "secret": "ERKHQcu4I7qglcdTwM9ypFOvCuQ=",
     "authStrategies": [
       "jwt",
       "local"
@@ -45,8 +45,12 @@
       "twitter": {
         "key": "<twitter oauth key>",
         "secret": "<twitter oauth secret>"
+      },
+      "github": {
+        "key": "<github oauth key>",
+        "secret": "<github oauth secret>"
       }
     }
   },
-  "mongodb": "mongodb://localhost:27017/feathers"
+  "mongodb": "mongodb://database:27017/data"
 }

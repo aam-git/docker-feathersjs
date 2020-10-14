@@ -1,6 +1,6 @@
-# feathers
+# feathers-app
 
-> feathers app
+> 
 
 ## About
 
@@ -14,7 +14,7 @@ Getting up and running is as easy as 1, 2, 3.
 2. Install your dependencies
 
     ```
-    cd path/to/feathers
+    cd path/to/feathers-app
     npm install
     ```
 
