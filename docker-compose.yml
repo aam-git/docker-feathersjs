@@ -9,10 +9,10 @@ services:
     volumes:
       - mongodb_data:/data/db
   feathers:
-    image: aamservices/feathersjs:latest
+    image: aamservices/feathersjs:puppeteer
     restart: unless-stopped
     volumes:
-      - sails_data:/usr/src/app
+      - feathers_data:/usr/src/app
     networks:
       - internal
     ports:
