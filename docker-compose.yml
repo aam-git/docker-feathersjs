@@ -22,5 +22,5 @@ services:
 volumes:
   mongodb_data:
     driver: local
-  sails_data:
+  feathers_data:
     driver: local
