@@ -54,7 +54,7 @@
     "mongodb-core": "^3.2.7",
     "serve-favicon": "^2.5.0",
     "winston": "^3.3.3",
-    "puppeteer": "^10.0.0",
+    "puppeteer": "^10.0.0"
   },
   "devDependencies": {
     "axios": "^0.20.0",
